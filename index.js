@@ -1,16 +1,16 @@
 function bilanganGanjil(input) {
-  if (input % 2 !== 0) console.log('true')
-  else console.log('false')
+  let result = input % 2 !== 0
+  return result
 }
 
-// bilanganGanjil(5)
+// console.log(bilanganGanjil(5))
 
 function bilanganGenap(input) {
-  if (input % 2 === 0) console.log('true')
-  else console.log('false')
+  let result = input % 2 !== 0
+  return result
 }
 
-// bilanganGenap(3)
+// console.log(bilanganGenap(5))
 
 function reversal(input) {
   return input.split('').reverse().join('')
