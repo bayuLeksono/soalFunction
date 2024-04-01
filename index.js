@@ -22,13 +22,11 @@ function upperCase(input) {
   let sentence = `${input}`
   console.log(sentence.toUpperCase())
 }
-upperCase('jangan ngegas dong')
+// upperCase('jangan ngegas dong')
 
 // luas lingkaran = pi * r * r
-const pi = Math.PI
-const r = 2
-function luasLingkaran(pi, r) {
-  const result = pi * r * r
+function luasLingkaran(r) {
+  const result = Math.PI * r * r
   return result
 }
-console.log('Luas lingkaran: ' + luasLingkaran(pi, r))
+console.log('Luas lingkaran: ' + luasLingkaran(2).toFixed(2))
